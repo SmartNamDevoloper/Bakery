@@ -1,0 +1,36 @@
+// Variable
+$picture_size:200px;
+
+.fit-picture {
+    max-width: $picture_size;
+    max-height: $picture_size;
+    min-height: $picture_size;
+    min-width: $picture_size;
+}
+// Nesting
+.footer{
+  a{
+    color: green;
+  }
+}
+ .order{
+ img{
+     display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+   }
+ }
+
+// Inheritance
+%table_prop{
+  width:inherit;
+  padding: 8px;
+  border: 1px solid #ddd;
+
+  text-align: center;
+}
+table {
+  @extend %table_prop;
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,30 @@
+.fit-picture {
+  max-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+.footer a {
+  color: green;
+}
+
+.order img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+table {
+  width: inherit;
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table {
+  background-color: #f2f2f2;
+}
+
+/*# sourceMappingURL=sass_style.css.map */
